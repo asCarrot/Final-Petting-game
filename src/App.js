@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState, useRef, useEffect } from 'react';
 
-const PetSimulator = () => {
+function App() {
   const [affectionPoints, setAffectionPoints] = useState(0);
   const [isPetting, setIsPetting] = useState(false);
   const [pinkHearts, setPinkHearts] = useState(0);
@@ -105,6 +105,6 @@ const PetSimulator = () => {
       </div>
     </div>
   );
-};
+}
 
 export default App;
